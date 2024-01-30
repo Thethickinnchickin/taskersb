@@ -1,0 +1,85 @@
+/* view-tasks.component.css */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  .task-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .task-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: auto;
+  }
+  
+  .task-actions {
+    margin-top: 10px;
+  }
+  
+  button {
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin-right: 8px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* ... (existing styles) */
+
+.create-task-button {
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  margin-bottom: 10px; /* Adjust the margin as needed */
+  margin-top: 10px;
+}
+
+.create-task-button:hover {
+  background-color: #0056b3;
+}
+
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  margin-bottom: 50px;
+}
+
+.mark-btn {
+  background-color: green;
+  font-size: .5rem;
+}
+
+.completed {
+  color: green;
+  font-weight: bolder;
+}
+
+.incomplete {
+  color: red;
+  font-weight: bold;
+}
+
